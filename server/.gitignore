@@ -1,0 +1,31 @@
+node_modules
+.env
+test_crud.sh
+test_overlap.sh
+test_translation.sh
+test_validation_rooms.sh
+
+# Database
+database.sqlite
+*.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# AWS Elastic Beanstalk (keep configs, ignore local data)
+.elasticbeanstalk/
+
+# Build
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
